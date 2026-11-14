@@ -8,10 +8,21 @@ Prácticas de la asignatura **Acceso a Datos** del ciclo de Desarrollo de Aplica
 
 | Carpeta | Qué hay | Conceptos |
 |---|---|---|
-| [`Tema1-Programacion-CSharp`](Tema1-Programacion-CSharp) | Ejercicios de iniciación a C# (.NET Framework 4.8 y .NET 10) | Tipos, colecciones, POO, herencia, interfaces |
-| [`Tema2-Persistencia-Ficheros`](Tema2-Persistencia-Ficheros) | **MedidorFormatos**: lee y compara CSV, JSON y XML | `System.Text.Json`, `XmlSerializer`, validación de ficheros corruptos |
-| [`Tema3-Persistencia-Base-de-Datos`](Tema3-Persistencia-Base-de-Datos) | Scripts SQL Server | Claves, restricciones `CHECK`, borrado lógico |
+| [`Tema1-Programacion-CSharp`](Tema1-Programacion-CSharp) | `EjerciciosTema1`: 27 ejercicios (Ejercicio01-10, C1_C7, C8_C9, C10, C13) | Tipos, condicionales, bucles, colecciones, métodos, POO, herencia, interfaces, records, LINQ |
+| [`Tema2-Persistencia-Ficheros`](Tema2-Persistencia-Ficheros) | `EjerciciosTema2`: 18 ejercicios (Ejercicio01-10, C1_C2, C4) y **MedidorFormatos** | `File`, `Directory`, `Path`, `using`, CSV, `System.Text.Json`, `XmlSerializer`, binarios y `Seek` |
+| [`Tema3-Persistencia-Base-de-Datos`](Tema3-Persistencia-Base-de-Datos) | `EjerciciosTema3`: 10 ejercicios con ADO.NET, **CRUD_Personal** y scripts SQL | `SqlConnection`, parámetros, inyección SQL, borrado lógico, patrón Repository, transacciones |
 | [`Investigacion-Cassandra-vs-SQLServer`](Investigacion-Cassandra-vs-SQLServer) | Presentación y guion comparando NoSQL y SQL | Modelo de datos, escalabilidad, casos de uso |
+
+## ▶️ Cómo abrir los ejercicios
+
+Cada tema tiene una solución (`.slnx`) que abre todos sus ejercicios en Visual Studio:
+
+- `Tema1-Programacion-CSharp/EjerciciosTema1/EjerciciosTema1.slnx`
+- `Tema2-Persistencia-Ficheros/EjerciciosTema2/EjerciciosTema2.slnx`
+- `Tema3-Persistencia-Base-de-Datos/EjerciciosTema3/EjerciciosTema3.slnx`
+
+Cada ejercicio es un proyecto de consola independiente: clic derecho → *Establecer como proyecto de inicio* y ejecutar.
+En el Tema 3 ejecuta primero `Ejercicio01`, que crea la base de datos `Tema03` en SQL Server LocalDB.
 
 ## ⭐ Proyecto destacado: MedidorFormatos
 
@@ -25,7 +36,7 @@ dotnet run
 ## 🛠️ Requisitos
 - .NET 10 SDK (y .NET Framework 4.8 para los proyectos del Tema 1)
 - Visual Studio 2022 o superior
-- SQL Server Express para los scripts del Tema 3
+- SQL Server LocalDB (viene con Visual Studio) para el Tema 3
 
 ---
 👤 **Asier García Catalán** · [GitHub](https://github.com/asiergarciacatalan)

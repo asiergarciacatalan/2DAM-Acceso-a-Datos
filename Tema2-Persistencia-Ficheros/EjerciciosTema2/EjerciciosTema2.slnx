@@ -1,0 +1,20 @@
+<Solution>
+  <Project Path="Ejercicio01/Ejercicio01.csproj" />
+  <Project Path="Ejercicio02/Ejercicio02.csproj" />
+  <Project Path="Ejercicio03/Ejercicio03.csproj" />
+  <Project Path="Ejercicio04/Ejercicio04.csproj" />
+  <Project Path="Ejercicio05/Ejercicio05.csproj" />
+  <Project Path="Ejercicio06/Ejercicio06.csproj" />
+  <Project Path="Ejercicio07/Ejercicio07.csproj" />
+  <Project Path="Ejercicio08/Ejercicio08.csproj" />
+  <Project Path="Ejercicio09/Ejercicio09.csproj" />
+  <Project Path="Ejercicio10/Ejercicio10.csproj" />
+  <Project Path="Ejercicio_C1_C2_01/Ejercicio_C1_C2_01.csproj" />
+  <Project Path="Ejercicio_C1_C2_02/Ejercicio_C1_C2_02.csproj" />
+  <Project Path="Ejercicio_C1_C2_03/Ejercicio_C1_C2_03.csproj" />
+  <Project Path="Ejercicio_C1_C2_04/Ejercicio_C1_C2_04.csproj" />
+  <Project Path="Ejercicio_C1_C2_05/Ejercicio_C1_C2_05.csproj" />
+  <Project Path="Ejercicio_C4_01/Ejercicio_C4_01.csproj" />
+  <Project Path="Ejercicio_C4_02/Ejercicio_C4_02.csproj" />
+  <Project Path="Ejercicio_C4_03/Ejercicio_C4_03.csproj" />
+</Solution>
